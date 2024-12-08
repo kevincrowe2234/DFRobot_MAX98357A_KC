@@ -69,9 +69,9 @@ public:
    * @return true on success, false on error
    */
   bool begin(const char *btName="bluetoothAmplifier", 
-             int bclk=25, 
-             int lrclk=26, 
-             int din=27);
+             int bclk, 
+             int lrclk, 
+             int din);
 
   /**
    * @fn initI2S
